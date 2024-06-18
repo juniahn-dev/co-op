@@ -108,7 +108,6 @@
     height: 100%;
 
     .header {
-      height: 20%;
       background-color: #dedede;
       border: 10px solid #b9b9b9;
 
@@ -120,7 +119,7 @@
       border: 10px solid #b9b9b9;
       margin-top: 20px;
       padding: 20px;
-      height: calc(80% - 30px);
+      height: calc(100% - 100px);
 
       aside > a {
         text-decoration: none;
