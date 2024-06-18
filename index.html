@@ -4,122 +4,109 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
     <title>How to cook rice</title>
   </head>
   <body>
     <!-- header section -->
-    <header>
+    <header class="headerContainer">
       <!-- heading 1 section -->
-      <h1>How to cook rice</h1>
+      <h1 class="headingContainer">How to cook rice</h1>
+      <!-- navigate section -->
+      <nav class="navContainer">
+        <!-- display anchors in list element -->
+        <ul class="navUlContainer">
+          <li><a href="/first">Option 1</a></li>
+          <!-- add aria-label in secondary nav -->
+          <li aria-label="Go to second step">
+            <a href="/second">Option 2</a>
+          </li>
+          <li><a href="/third">Option 3</a></li>
+        </ul>
+      </nav>
     </header>
-    <!-- navigate section -->
-    <nav>
-      <!-- display anchors in list element -->
-      <ul>
-        <li><a href="/first">Option 1</a></li>
-        <!-- add aria-label in secondary nav -->
-        <li aria-label="Go to second step">
-          <a href="/second">Option 2</a>
-        </li>
-        <li><a href="/third">Option 3</a></li>
-      </ul>
-    </nav>
     <!-- main section -->
-    <main>
-      <!-- section element -->
-      <section>
-        <!-- heading and paragraph -->
-        <h2>
-          <p>First step</p>
-        </h2>
-        <p>
-          <b>First, rinse the rice.</b><br />Do not skip this step! It washes
-          away starches that will cause the rice to clump together, so it’s key
-          for cooking soft, fluffy rice. Add the rice to a fine mesh strainer
-          set over a large bowl, and rinse until the water in the bowl runs
-          clear.
-        </p>
-        <h2>
-          <p>Second step</p>
-        </h2>
-        <p>
-          <b>Then, measure the proper water to rice ratio.</b><br />Measure 1
-          1/2 cups of water and 1 teaspoon olive oil for every cup of uncooked
-          rice. (1 cup dry rice yields about 3 cups cooked.) Combine the rice,
-          oil, and water in a medium saucepan, and stir to combine. Bring to a
-          boil over high heat.
-        </p>
-        <h2>
-          <p>Third step</p>
-        </h2>
-        <p>
-          <b>Next, simmer.</b><br />When the water starts boiling, cover the pot
-          with a tight-fitting lid, and reduce the heat to low. Simmer for 15
-          minutes.
-        </p>
-        <h2>
-          <p>Last step</p>
-        </h2>
-        <p>
-          <b>Finally, let it steam.</b><br />Turn off the heat and let the pot
-          stand, covered, for 10 minutes. Remove the lid and fluff the rice with
-          a fork. That’s it!
-        </p>
-      </section>
-      <hr />
-      <section>
-        <!-- heading and paragraph -->
-        <h2>
-          <p>First step</p>
-        </h2>
-        <p>
-          <b>First, rinse the rice.</b><br />For this method, add the rice to a
-          fine mesh strainer and rinse it under cool running water. Unlike with
-          the steaming method, a quick rinse is fine here.
-        </p>
-        <h2>
-          <p>Second step</p>
-        </h2>
-        <p>
-          <b>Next, boil it.</b><br />Add the rice to a pot filled halfway with
-          cool water, and set a timer for 15 minutes. Bring the water to a boil,
-          and test the rice for done-ness when the timer goes off.
-        </p>
-        <h2>
-          <p>Last step</p>
-        </h2>
-        <p>
-          <b>Finally, rinse it again.</b><br />When the rice is tender, drain
-          the pot, and rinse the drained rice under cold water. In this method,
-          this second rinse is the one you don’t want to skip. It will wash away
-          starches that will cause the rice to clump together. Set the rinsed
-          rice aside to dry for a few minutes in the strainer. Then, enjoy!
-        </p>
-      </section>
+    <main class="mainContainer">
+      <div class="sectionsContainer">
+        <!-- section element -->
+        <section>
+          <!-- heading and paragraph -->
+          <h2>
+            <p>First step</p>
+          </h2>
+          <p>
+            <b>First, rinse the rice.</b><br />Do not skip this step! It washes
+            away starches that will cause the rice to clump together, so it’s
+            key for cooking soft, fluffy rice. Add the rice to a fine mesh
+            strainer set over a large bowl, and rinse until the water in the
+            bowl runs clear.
+          </p>
+          <h2>
+            <p>Second step</p>
+          </h2>
+          <p>
+            <b>Then, measure the proper water to rice ratio.</b><br />Measure 1
+            1/2 cups of water and 1 teaspoon olive oil for every cup of uncooked
+            rice. (1 cup dry rice yields about 3 cups cooked.) Combine the rice,
+            oil, and water in a medium saucepan, and stir to combine. Bring to a
+            boil over high heat.
+          </p>
+          <h2>
+            <p>Third step</p>
+          </h2>
+          <p>
+            <b>Next, simmer.</b><br />When the water starts boiling, cover the
+            pot with a tight-fitting lid, and reduce the heat to low. Simmer for
+            15 minutes.
+          </p>
+          <h2>
+            <p>Last step</p>
+          </h2>
+          <p>
+            <b>Finally, let it steam.</b><br />Turn off the heat and let the pot
+            stand, covered, for 10 minutes. Remove the lid and fluff the rice
+            with a fork. That’s it!
+          </p>
+        </section>
+        <div class="imgContainer">
+          <div class="image">Image 1</div>
+          <div class="image">Image 2</div>
+          <div class="image">Image 3</div>
+        </div>
+      </div>
       <!-- article element -->
-      <article>
-        <h2>NEWS</h2>
-        <p>
-          Rice is at home in Asian dishes, Mexican recipes, and more, so it’s
-          impossible to run out of new ways to use it. Serve it on its own as a
-          side dish, or dress it with lime and cilantro to make cilantro lime
-          rice. Toss it into a stir fry, or use it as the base for a healthy
-          grain bowl.
-        </p>
-      </article>
-      <aside>
-        Source:
-        <a href="https://www.loveandlemons.com/how-to-cook-rice/"
-          >How TO COOK RICE</a
-        >
-      </aside>
+      <div class="articleContainer">
+        <article>
+          <div class="header">
+            <h2>NEWS</h2>
+          </div>
+          <div class="content">
+            <p>
+              Rice is at home in Asian dishes, Mexican recipes, and more, so
+              it’s impossible to run out of new ways to use it. Serve it on its
+              own as a side dish, or dress it with lime and cilantro to make
+              cilantro lime rice. Toss it into a stir fry, or use it as the base
+              for a healthy grain bowl.
+            </p>
+            <aside>
+              Source:
+              <a href="https://www.loveandlemons.com/how-to-cook-rice/"
+                >How TO COOK RICE</a
+              >
+            </aside>
+          </div>
+        </article>
+      </div>
     </main>
     <!-- footer element -->
     <footer>
-      <!-- use time element -->
-      I made content this time -> <time datetime="2024-06-10">2024-06-10</time>
-      <!-- use escaped characters -> footer character -->
-      &digamma;&Odblac;&Odblac;&Tcedil;&Ecaron;&ropf;
+      <p id="footerP">
+        <!-- use time element -->
+        I made content this time ->
+        <time datetime="2024-06-10">2024-06-10</time>
+        <!-- use escaped characters -> footer character -->
+        &digamma;&Odblac;&Odblac;&Tcedil;&Ecaron;&ropf;
+      </p>
     </footer>
   </body>
 </html>
